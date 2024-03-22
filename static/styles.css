@@ -74,4 +74,15 @@ header a{
     list-style: 1.3em;
 }
 
+.carousel .list .item .content .weight{
+    color: #e97b15;
+}
+
+.carousel .list .item .content .button{
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 40px;
+    gap: 5px;
+    margin-top: 20px;
+}
 
