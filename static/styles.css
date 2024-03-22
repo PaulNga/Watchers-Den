@@ -38,7 +38,7 @@ header a{
 }
 
 .carousel .list .item{
-    position: relative;
+    position: absolute;
     inset: 0 0 0 0;
 }
 
