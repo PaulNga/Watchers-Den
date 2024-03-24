@@ -215,7 +215,7 @@ header a{
 /* effect next click*/
 .carousel.next .list .item:nth-child(1) img{
     width: 150px;
-    height: 2200px;
+    height: 220px;
     position: absolute;
     left: 50px;
     bottom: 50px;
@@ -232,3 +232,10 @@ header a{
         border-radius: 0;
     }
 }
+
+.carousel.next .thumbnail .item:nth-last-child(1){
+    width: 0;
+    overflow: hidden;near 1 fowards;
+
+}
+    animation: showThumbnail .5s li
